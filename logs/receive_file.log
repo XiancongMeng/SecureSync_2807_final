@@ -1,0 +1,15 @@
+
+===== EPOLL 创建 =====
+[EPOLL] 创建成功，epoll_fd = 4
+[EPOLL] 添加服务器socket(fd=3)到epoll监听列表，监听EPOLLIN(读)事件
+[EPOLL] 添加成功
+===== EPOLL 创建结束 =====
+
+[系统] 设置SIGCHLD信号处理为SIG_IGN，自动回收子进程，避免僵尸进程
+🔐 File receive server (with SM2/SM4) running on port 8081 (epoll mode)...
+
+===== EPOLL 事件循环开始 =====
+[EPOLL] 等待事件发生...
+[EPOLL 2025-05-14 05:41:25] 循环 #1: 调用epoll_wait()等待事件...
+[EPOLL] 等待超时，无事件发生
+[EPOLL 2025-05-14 05:41:55] 循环 #2: 调用epoll_wait()等待事件...
